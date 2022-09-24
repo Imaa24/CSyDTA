@@ -1,0 +1,45 @@
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    margin-left: 39%;
+    max-width:80%;
+    position:absolute;
+}
+
+h2{
+    margin-left: 25%;
+}
+
+h4{
+    margin-left: 21%;
+}
+
+#fisrtname{
+    margin-left: 21%;
+}
+
+
+#consulta{
+    margin: 0 50% 0 21%;
+}
+
+.formulario{
+    margin-left: 21%;
+}
+
+#submit{
+    margin-left: 21%;
+    width: 15.4%;
+    background: linear-gradient(to top, blue, rgb(248, 6, 6));
+}
+
+#email{
+    margin-left: 21%;
+}

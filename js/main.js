@@ -13,6 +13,12 @@ window.onclick = function(e) {
   }
 }
 
+
+// siguiente y anterior
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
 let slideIndex = 0;
 showSlides();
 
