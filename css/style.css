@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
 body{
-    background-color: rgb(255, 235, 205,0.5);   
+    background-color: rgba(254, 244, 228, 0.346);   
 }
 h1{
    font-size: 2.5rem;
@@ -52,7 +52,7 @@ nav  a:hover {
     width: 58%;
     text-align: center;
     margin-left: 21%;
-    color: white;
+    color: rgb(111, 110, 110);
     margin-right: 21%;
 }
 
