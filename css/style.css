@@ -16,7 +16,6 @@ h1{
     width: 100%;
     height: 70px;
     text-align: center;
-    vertical-align: middle;
     padding: 12px 0px 10px 0px;
 }
 #nav{
@@ -24,9 +23,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    vertical-align: middle;
     background: linear-gradient(to top, rgb(34, 54, 108), rgb(223, 40, 43));
-		
 }
 nav a { 
 		text-decoration: none;
@@ -200,4 +197,26 @@ html{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+  
+}
+
+/* Responsive */
+
+@media screen and (max-width: 620px) {
+
+    .row,
+    #nav {
+        flex-direction: column;
+        height: 70;
+       
+    }
+
+  
+@media screen and (max-width: 850px) {
+
+    .row,
+    #nav {
+        flex-direction: column;
+        height: 70;
+    }
 }
