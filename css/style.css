@@ -203,14 +203,13 @@ html{
 /* Responsive */
 
 @media screen and (max-width: 620px) {
-
     .row,
     #nav {
         flex-direction: column;
         height: 70;
        
     }
-
+}
   
 @media screen and (max-width: 850px) {
 
@@ -219,4 +218,4 @@ html{
         flex-direction: column;
         height: 70;
     }
-}
+    }
