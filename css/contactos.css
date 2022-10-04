@@ -2,7 +2,6 @@
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
 }
 
 .map-responsive iframe{
@@ -36,7 +35,7 @@ h4{
 
 #submit{
     margin-left: 21%;
-    width: 15.4%;
+    width: 12.5%;
     background: linear-gradient(to top, rgb(34, 54, 108), rgb(223, 40, 43));
 }
 

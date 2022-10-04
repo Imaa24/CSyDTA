@@ -44,11 +44,10 @@ nav  a:hover {
     text-align: center;
     font-size: 1.2rem;
     background: linear-gradient(to top, rgb(34, 54, 108), rgb(223, 40, 43));
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 24%;
+    margin-right: 24%;
     border-radius: 30px;
-    color:  whitesmoke;;
-    
+    color:  whitesmoke;
 }
      
 /* Texto de la historia del club */
