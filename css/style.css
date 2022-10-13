@@ -230,10 +230,11 @@ html{
         height: 30px;
         text-align: center;
         padding: 5px;
+        margin-top: -3px;
         
     }   
     #logoimg{
         height: 50px;
-        margin-bottom: 30%;
+margin-top: -17px;
     }
  }

@@ -1,0 +1,40 @@
+{
+  "arreglo":[
+                {   "id":1,
+                    "nombre":"César Peñaloza",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador1.png",
+                    "stock":1 
+                },
+                {"id":2,
+                "nombre":"Raúl Ezequiel Gómez",
+                "descripcion":"Titular",
+                "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador3.png",
+                "stock":1 
+                } ,
+                {   "id":3,
+                    "nombre":"Elían Valdés",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador4.png",
+                    "stock":1 
+                } ,
+                {   "id":4,
+                    "nombre":"Carlos Aballay",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador5.png",
+                    "stock":1 
+                } ,
+                {   "id":5,
+                    "nombre":"Rubén Zerrizuela",
+                    "descripcion":"Suplente",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador6.png",
+                    "stock":1 
+                } ,
+                {   "id":6,
+                    "nombre":"Mario Ojeda",
+                    "descripcion":"Suplente",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
+                    "stock":1 
+                } 
+              ]
+}
