@@ -6,18 +6,18 @@ fetch(url)
     .then(data => {  // data contiene el JSON
         console.log(data)
         datos = data.arreglo
-        console.log(datos)   //  3 plantas
+        console.log(datos)   
 
 
         let cad = `<div class="container">`
 
-        for (producto of datos) {
+        for (jugador of datos) {
             cad += `
         <div class="tarjeta">
-            <img src="${producto.imagen}" alt="${producto.nombre}">
+            <img src="${jugador.imagen}" alt="${jugador.nombre}">
             <div class="cuerpo">
-                <h4>${producto.id} - ${producto.nombre}</h4>
-                <p>${producto.descripcion}</p>
+                <h4>${jugador.id} - ${jugador.nombre}</h4>
+                <p>${jugador.descripcion}</p>
             </div>
         </div>   
     `
