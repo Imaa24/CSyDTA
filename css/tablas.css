@@ -28,3 +28,52 @@ table{
     display: table;
     vertical-align: baseline;
 }
+
+.aa{
+    width: 50vw;
+    margin: 0% auto;
+}
+
+#mvp-content-main td, #mvp-content-main th {
+    padding: 5px 1.5%;
+}
+.sp-data-table .data-name {
+    text-align: left;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+#mvp-content-main table {
+    font-size: .9rem;
+    width: 100%;
+}
+.sp-data-table {
+    width: 100%;
+    table-layout: auto;
+    border-spacing: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.theiaPostSlider_slides {
+    list-style-image: initial;
+}
+.theiaPostSlider_slides {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+
+.team-logo{
+    text-align: center;
+}
+
+.ee{
+    text-align: center;
+}
+
+img{
+    height: 40px;
+}
