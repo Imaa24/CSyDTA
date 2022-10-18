@@ -1,47 +1,37 @@
 .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
+    grid-column: 2/6;
+    grid-row: 1/4;
 }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    margin-left: 39%;
-    max-width:80%;
-    position:absolute;
-}
-
-.iconos{
+.formu{
+    display: grid;
+    grid-template-columns: 6;
     margin-left: 21%;
-}
-h2{
-    margin-left: 21%;
+    grid-template-rows: 4;
+    grid-row: 1/4;
 }
 
 h4{
-    margin-left: 21%;
+    display: grid;
+    grid-column: 1;
 }
 
-#fisrtname{
-    margin-left: 21%;
+h2{
+    grid-column: 1;
 }
 
-
-#consulta{
-    margin: 0 50% 0 21%;
+.formm{
+    display: block;
 }
 
-.formulario{
-    margin-left: 21%;
+form{
+    grid-column: 1;
 }
 
 #submit{
-    margin-left: 21%;
-    width: 12.5%;
-    background: linear-gradient(to top, rgb(34, 54, 108), rgb(223, 40, 43));
+    width: 75%;
 }
 
-#email{
-    margin-left: 21%;
+body{
+    margin: 0%;
 }
