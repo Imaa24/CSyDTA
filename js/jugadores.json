@@ -1,38 +1,68 @@
 {
   "arreglo":[
                 {   "id":1,
-                    "nombre":"César Peñaloza",
+                    "nombre":"Valentin Sanchez",
                     "descripcion":"Titular",
                     "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador1.png",
                     "stock":1 
                 },
                 {"id":2,
-                "nombre":"Raúl Ezequiel Gómez",
+                "nombre":"Jesus Avalos",
                 "descripcion":"Titular",
                 "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador3.png",
                 "stock":1 
                 } ,
                 {   "id":3,
-                    "nombre":"Elían Valdés",
+                    "nombre":"Ariel Vivanco",
                     "descripcion":"Titular",
                     "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador4.png",
                     "stock":1 
                 } ,
                 {   "id":4,
-                    "nombre":"Carlos Aballay",
+                    "nombre":"Agustin Hernandez",
                     "descripcion":"Titular",
                     "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador5.png",
                     "stock":1 
                 } ,
                 {   "id":5,
-                    "nombre":"Rubén Zerrizuela",
-                    "descripcion":"Suplente",
+                    "nombre":"Carlos Miranda",
+                    "descripcion":"Titular",
                     "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador6.png",
                     "stock":1 
                 } ,
                 {   "id":6,
-                    "nombre":"Mario Ojeda",
-                    "descripcion":"Suplente",
+                    "nombre":"Alan Chiariani",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
+                    "stock":1 
+                } ,
+                {  "id":7,
+                    "nombre":"Alejandro Lopez",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
+                    "stock":1 
+                } ,
+                {   "id":8,
+                    "nombre":"Valentin Bidart",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
+                    "stock":1 
+                } ,
+                {   "id":9,
+                    "nombre":"Alesandro Gichonet",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
+                    "stock":1 
+                } ,
+                {   "id":10,
+                    "nombre":"Boris Reid",
+                    "descripcion":"Titular",
+                    "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
+                    "stock":1 
+                } ,
+                {   "id":11,
+                    "nombre":"German Garcia",
+                    "descripcion":"Titular",
                     "imagen":"https://patricialaura.github.io/CSyDTA_Plantel/img/JugadoresCSyDTA/Jugador7.png",
                     "stock":1 
                 } 
