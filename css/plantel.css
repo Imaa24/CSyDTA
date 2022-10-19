@@ -17,9 +17,12 @@ img{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 #logoimg{
-    width: 40%;
+    width: auto;
 }
 @media screen and (max-width: 600px) {
  

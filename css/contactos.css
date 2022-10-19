@@ -1,7 +1,15 @@
 .map-responsive{
     grid-column: 2/6;
     grid-row: 1/4;
+    overflow: hidden;
+    margin-right: 20%;
+    max-width: 1000px;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 .formu{
     display: grid;
@@ -29,9 +37,42 @@ form{
 }
 
 #submit{
-    width: 75%;
+    width: 74%;
+    background: rgba(0, 0, 0, 0.552);
 }
 
 body{
     margin: 0%;
+}
+
+textarea:valid{
+    background-color: rgba(101, 250, 101, 0.51);
+}
+
+input:valid{
+    background-color: rgba(101, 250, 101, 0.51);
+}
+
+
+input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+.error {
+    width : 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
 }
