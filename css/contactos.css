@@ -84,6 +84,13 @@ input:focus:invalid {
         overflow: hidden;
         margin-right: 20%;
         max-width: 1000px;
+        height: 60%;
+    }
+    .formm{
+        margin-bottom: 20px;
+    }
+    .formu{
+        margin-left: 18%;
     }
 }
 
@@ -94,5 +101,8 @@ input:focus:invalid {
         overflow: hidden;
         margin-right: 20%;
         max-width: 1000px;
+    }
+    .formm{
+        margin-bottom: 20px;
     }
 }
