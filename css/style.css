@@ -219,6 +219,8 @@ html{
 		font-size: 1rem;
 		font-weight: 400;
         }
+        body{
+height: 800%;        }
 }
   
 @media screen and (max-width: 768px) {
@@ -240,4 +242,6 @@ html{
         height: 50px;
         margin-top: -17px;
     }
- }
+    body{
+        height: 800px;        }
+    }
