@@ -76,3 +76,24 @@ input:focus:invalid {
 .error.active {
     padding: 0.3em;
 }
+
+@media screen and (max-width: 600px) {
+    .map-responsive{
+        grid-column: 1/6;
+        grid-row: 2/4;
+        overflow: hidden;
+        margin-right: 20%;
+        max-width: 1000px;
+    }
+
+
+@media screen and (max-width: 768px) {
+    .map-responsive{
+        grid-column: 1/6;
+        grid-row: 2/4;
+        overflow: hidden;
+        margin-right: 20%;
+        max-width: 1000px;
+    }
+    
+ }
