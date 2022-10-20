@@ -85,9 +85,9 @@ input:focus:invalid {
         margin-right: 20%;
         max-width: 1000px;
     }
+}
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .map-responsive{
         grid-column: 1/6;
         grid-row: 2/4;
@@ -95,5 +95,4 @@ input:focus:invalid {
         margin-right: 20%;
         max-width: 1000px;
     }
-    
- }
+}
