@@ -225,6 +225,31 @@ background-position-x: center;
 }
 }
   
+@media screen and (max-width: 1280px) {
+
+    .row,
+    #nav {
+        flex-direction: column;
+        height: 200px;
+            }
+    #navBar{
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        padding: 5px;
+        margin-top: -3px;
+        
+    }   
+    #logoimg{
+        height: 60px;
+        margin-top: -17px
+    }
+    body{
+        height: 800px;   
+ background-position-x: center;
+    }
+    }
+
 @media screen and (max-width: 768px) {
 
     .row,
