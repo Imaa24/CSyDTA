@@ -1,35 +1,44 @@
-// cuando clickeas el boton cambia entre hiden y showing el contenido del dropdown 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// cierra el dropdown cuando clickeas afuera
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-
-
-// siguiente y anterior
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // cambia imagen cada 5 segundos
+if (document.getElementById("app")) {
+    const { createApp } = Vue
+    createApp({
+        data() {
+            return {
+                pedidos: [],
+                errored: false,
+                loading: true,
+                url: "https://julianete.pythonanywhere.com/pedidos"
+            }
+        },
+        methods: {
+            fetchData(url) {
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        this.pedidos = data;
+                        this.loading = false;
+                    })
+                    .catch(err => {
+                        this.errored = true
+                    })
+            },
+            eliminar(producto) {
+                valida = prompt('Estas seguro de querer borrar este producto? Escriba "SI" o "si"')
+                if (valida == "SI" || valida == "si") {
+                    const url = 'https://julianete.pythonanywhere.com/pedidos/' + producto;
+                    var options = {
+                        method: 'DELETE',
+                    }
+                    fetch(url, options)
+                        .then(res => res.text()) // or res.json()
+                        .then(res => {
+                            location.reload();
+                        })
+                }
+            }
+        },
+        created() {
+            this.fetchData(this.url) 
+        }
+         
+    }).mount('#app')
 }

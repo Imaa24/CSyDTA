@@ -106,3 +106,54 @@ input:focus:invalid {
         margin-bottom: 20px;
     }
 }
+
+.container{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.container *{
+    margin-top: 25px;
+}
+
+.container .button{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #e73838;
+    border: 1px solid #e42e2e;
+    padding: 6px;
+    color: #efefef;
+}
+
+.card-containers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: rgb(92, 24, 24);
+    width: 100%;
+}
+
+.card{
+    width: 25%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    background-color: rgba(204, 204, 204,0.2);
+    margin: 15px auto;
+    color: #efefef;
+}
+
+.card .img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .img-container img{
+    width: 100%;
+}
+
+.card .card-body{
+    margin-bottom: 15px;
+}
